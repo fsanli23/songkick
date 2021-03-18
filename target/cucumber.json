@@ -1,0 +1,1156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-18T03:30:45.433Z",
+        "line": 19,
+        "name": "user should be able to add  artist",
+        "description": "",
+        "id": "adding-artist-in-tracked-list;user-should-be-able-to-add--artist;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1889000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.songkick.step_definitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31597000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2187000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on the artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_on_the_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2377000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter  \"adele\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adele\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3131000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click track button",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_track_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1459000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user  click artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6705000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sees the \"adele\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adele\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_sees_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8981000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user delete added artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.userDeleteAddedArtist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@G21-107"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-18T03:31:43.772Z",
+        "line": 20,
+        "name": "user should be able to add  artist",
+        "description": "",
+        "id": "adding-artist-in-tracked-list;user-should-be-able-to-add--artist;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1889000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.songkick.step_definitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11466000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2036000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on the artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_on_the_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2146000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter  \"jay-z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jay-z\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3076000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click track button",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_track_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2403000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user  click artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5997000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sees the \"jay-z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jay-z\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_sees_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8559000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user delete added artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.userDeleteAddedArtist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@G21-107"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-18T03:32:21.353Z",
+        "line": 21,
+        "name": "user should be able to add  artist",
+        "description": "",
+        "id": "adding-artist-in-tracked-list;user-should-be-able-to-add--artist;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1860000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.songkick.step_definitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10935000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on the artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_on_the_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3931000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter  \"halsey\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"halsey\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3075000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click track button",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_track_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1844000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user  click artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7834000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sees the \"halsey\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"halsey\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_sees_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9792000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user delete added artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.userDeleteAddedArtist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@G21-107"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-18T03:33:00.726Z",
+        "line": 22,
+        "name": "user should be able to add  artist",
+        "description": "",
+        "id": "adding-artist-in-tracked-list;user-should-be-able-to-add--artist;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1905000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.songkick.step_definitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11055000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2023000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on the artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_on_the_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1837000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter  \"drake\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"drake\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3070000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click track button",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_track_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1526000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user  click artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6280000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sees the \"drake\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"drake\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_sees_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8576000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user delete added artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.userDeleteAddedArtist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@G21-107"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-18T03:33:37.006Z",
+        "line": 23,
+        "name": "user should be able to add  artist",
+        "description": "",
+        "id": "adding-artist-in-tracked-list;user-should-be-able-to-add--artist;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1876000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.songkick.step_definitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10613000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on the artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_on_the_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4075000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter  \"taylor swift\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"taylor swift\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3095000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click track button",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_track_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1989000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user  click artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8447000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sees the \"taylor swift\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"taylor swift\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_sees_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9091000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user delete added artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.userDeleteAddedArtist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@G21-107"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-18T03:34:16.317Z",
+        "line": 24,
+        "name": "user should be able to add  artist",
+        "description": "",
+        "id": "adding-artist-in-tracked-list;user-should-be-able-to-add--artist;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1906000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.songkick.step_definitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10471000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1748000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on the artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_on_the_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1736000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter  \"eminem\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eminem\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3106000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click track button",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_track_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1532000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user  click artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_artist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6472000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sees the \"eminem\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eminem\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.user_sees_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9166000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user delete added artist",
+            "match": {
+              "location": "com.songkick.step_definitions.AddingArtistStepDefinitions.userDeleteAddedArtist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@G21-107"
+          }
+        ]
+      }
+    ],
+    "name": "adding artist in tracked list",
+    "description": "  As a user I should be able to add  the artist",
+    "id": "adding-artist-in-tracked-list",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/addingArtists.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-18T03:30:45.434Z",
+        "line": 10,
+        "name": "Log in as a user",
+        "description": "",
+        "id": "songkick-login-feature;log-in-as-a-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1804000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.songkick.step_definitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14898000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on home page",
+            "match": {
+              "location": "com.songkick.step_definitions.LogInStepDefinitions.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1219000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on accept all cookies",
+            "match": {
+              "location": "com.songkick.step_definitions.LogInStepDefinitions.userClickOnAcceptAllCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6255000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on the login button",
+            "match": {
+              "location": "com.songkick.step_definitions.LogInStepDefinitions.user_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters username",
+            "match": {
+              "location": "com.songkick.step_definitions.LogInStepDefinitions.user_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters password",
+            "match": {
+              "location": "com.songkick.step_definitions.LogInStepDefinitions.user_enters_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8797000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on the logIn button",
+            "match": {
+              "location": "com.songkick.step_definitions.LogInStepDefinitions.user_click_on_the_log_in_button2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user sees \"Home – Songkick\" in the title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home – Songkick\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.songkick.step_definitions.LogInStepDefinitions.user_sees_in_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@G21-104"
+          }
+        ]
+      }
+    ],
+    "name": "Songkick login feature",
+    "description": "  As a user, I should be able to login with correct credentials",
+    "id": "songkick-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/logIn.feature",
+    "tags": [
+      {
+        "name": "@G21-104",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-18T03:30:45.432Z",
+        "line": 12,
+        "name": "Searching the concert and mark them them as interested",
+        "description": "",
+        "id": "searching-concert-in-any-city-and-marked-them-as-interested-to-check-them-out;searching-the-concert-and-mark-them-them-as-interested",
+        "after": [
+          {
+            "result": {
+              "duration": 1769000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.songkick.step_definitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31575000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 290000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click  on locations1",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_click_on_locations1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3057000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on tracked_location",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_click_on_tracked_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1688000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user search city \"houston\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"houston\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_search_city(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click the track_location",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_click_the_track_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5822000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click on the traked city",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.userClickOnTheTrakedCity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3975000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click on the tonight",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.userClickOnTheTonight()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user sees \"Concerts in Houston tonight\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Concerts in Houston tonight\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.userSees(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@G21-106"
+          }
+        ]
+      }
+    ],
+    "name": "searching concert in any city and marked them as interested to check them out",
+    "description": "  As a user, I should be able to search the concerts taking place in any city and mark them as interested",
+    "id": "searching-concert-in-any-city-and-marked-them-as-interested-to-check-them-out",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/searchConcert.feature",
+    "tags": [
+      {
+        "name": "@G21-106",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-18T03:30:45.430Z",
+        "line": 6,
+        "name": "Recording concert detail on excel",
+        "description": "",
+        "id": "adding--upcoming-concerrecordings;recording-concert-detail-on-excel",
+        "after": [
+          {
+            "result": {
+              "duration": 1805000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.songkick.step_definitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31570000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.songkick.step_definitions.SearchConcertStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2702000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search for \"halsey\" in find concert box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"halsey\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.songkick.step_definitions.UpcomingConcertFeature.user_search_for_in_find_concert_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3017000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on the upcoming events",
+            "match": {
+              "location": "com.songkick.step_definitions.UpcomingConcertFeature.user_click_on_the_upcoming_events()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2021000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see all the related result",
+            "match": {
+              "location": "com.songkick.step_definitions.UpcomingConcertFeature.user_should_see_all_the_related_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4994000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be able to write detail of the concert in exel sheet",
+            "match": {
+              "location": "com.songkick.step_definitions.UpcomingConcertFeature.user_should_be_able_to_write_detail_of_the_concert_in_exel_sheet()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Adding  upcoming concerRecordings",
+    "description": "  As a user I should be able to look for specific artist concert and record in exel sheet",
+    "id": "adding--upcoming-concerrecordings",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/upcomingConcert.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

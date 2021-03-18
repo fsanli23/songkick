@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: adding artist in tracked list
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 247.168 s - in adding artist in tracked list

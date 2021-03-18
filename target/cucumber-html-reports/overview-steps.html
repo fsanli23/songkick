@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Cucumber HTML Reports</td>
+        <td>1</td>
+      <td>17 Mar 2021, 22:34</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.songkick.step_definitions.AddingArtistStepDefinitions.userDeleteAddedArtist()</td>
+              <td>6</td>
+              <td class="duration" data-value="9027500000">9.027</td>
+              <td class="duration" data-value="9027500000">9.792</td>
+              <td class="duration" data-value="54165000000">54.165</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_artist()</td>
+              <td>6</td>
+              <td class="duration" data-value="1792166666">1.792</td>
+              <td class="duration" data-value="1792166666">2.403</td>
+              <td class="duration" data-value="10753000000">10.753</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_on_the_artist()</td>
+              <td>6</td>
+              <td class="duration" data-value="1367166666">1.367</td>
+              <td class="duration" data-value="1367166666">2.187</td>
+              <td class="duration" data-value="8203000000">8.203</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.AddingArtistStepDefinitions.user_click_track_button()</td>
+              <td>6</td>
+              <td class="duration" data-value="3092166666">3.092</td>
+              <td class="duration" data-value="3092166666">3.131</td>
+              <td class="duration" data-value="18553000000">18.553</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.AddingArtistStepDefinitions.user_enter(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="2683666666">2.683</td>
+              <td class="duration" data-value="2683666666">4.075</td>
+              <td class="duration" data-value="16102000000">16.102</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.AddingArtistStepDefinitions.user_sees_the(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="6955833333">6.955</td>
+              <td class="duration" data-value="6955833333">8.447</td>
+              <td class="duration" data-value="41735000000">41.735</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.Hooks.tearDownScenario()</td>
+              <td>9</td>
+              <td class="duration" data-value="1855888888">1.855</td>
+              <td class="duration" data-value="1855888888">1.906</td>
+              <td class="duration" data-value="16703000000">16.703</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.LogInStepDefinitions.userClickOnAcceptAllCookies()</td>
+              <td>1</td>
+              <td class="duration" data-value="1219000000">1.219</td>
+              <td class="duration" data-value="1219000000">1.219</td>
+              <td class="duration" data-value="1219000000">1.219</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.LogInStepDefinitions.user_click_on_the_log_in_button2()</td>
+              <td>1</td>
+              <td class="duration" data-value="8797000000">8.797</td>
+              <td class="duration" data-value="8797000000">8.797</td>
+              <td class="duration" data-value="8797000000">8.797</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.LogInStepDefinitions.user_click_on_the_login_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="6255000000">6.255</td>
+              <td class="duration" data-value="6255000000">6.255</td>
+              <td class="duration" data-value="6255000000">6.255</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.LogInStepDefinitions.user_enters_password()</td>
+              <td>1</td>
+              <td class="duration" data-value="195000000">0.195</td>
+              <td class="duration" data-value="195000000">0.195</td>
+              <td class="duration" data-value="195000000">0.195</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.LogInStepDefinitions.user_enters_username()</td>
+              <td>1</td>
+              <td class="duration" data-value="245000000">0.245</td>
+              <td class="duration" data-value="245000000">0.245</td>
+              <td class="duration" data-value="245000000">0.245</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.LogInStepDefinitions.user_is_on_home_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="14898000000">14.898</td>
+              <td class="duration" data-value="14898000000">14.898</td>
+              <td class="duration" data-value="14898000000">14.898</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.LogInStepDefinitions.user_sees_in_the_title(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.SearchConcertStepDefinitions.userClickOnTheTonight()</td>
+              <td>1</td>
+              <td class="duration" data-value="3975000000">3.975</td>
+              <td class="duration" data-value="3975000000">3.975</td>
+              <td class="duration" data-value="3975000000">3.975</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.SearchConcertStepDefinitions.userClickOnTheTrakedCity()</td>
+              <td>1</td>
+              <td class="duration" data-value="5822000000">5.822</td>
+              <td class="duration" data-value="5822000000">5.822</td>
+              <td class="duration" data-value="5822000000">5.822</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.SearchConcertStepDefinitions.userSees(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="34000000">0.034</td>
+              <td class="duration" data-value="34000000">0.034</td>
+              <td class="duration" data-value="34000000">0.034</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.SearchConcertStepDefinitions.user_click_on_locations1()</td>
+              <td>1</td>
+              <td class="duration" data-value="290000000">0.290</td>
+              <td class="duration" data-value="290000000">0.290</td>
+              <td class="duration" data-value="290000000">0.290</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.SearchConcertStepDefinitions.user_click_on_tracked_location()</td>
+              <td>1</td>
+              <td class="duration" data-value="3057000000">3.057</td>
+              <td class="duration" data-value="3057000000">3.057</td>
+              <td class="duration" data-value="3057000000">3.057</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.SearchConcertStepDefinitions.user_click_the_track_location()</td>
+              <td>1</td>
+              <td class="duration" data-value="80000000">0.080</td>
+              <td class="duration" data-value="80000000">0.080</td>
+              <td class="duration" data-value="80000000">0.080</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.SearchConcertStepDefinitions.user_is_on_the_landing_page()</td>
+              <td>8</td>
+              <td class="duration" data-value="18660250000">18.660</td>
+              <td class="duration" data-value="18660250000">31.597</td>
+              <td class="duration" data-value="149282000000">2:29.282</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.SearchConcertStepDefinitions.user_search_city(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1688000000">1.688</td>
+              <td class="duration" data-value="1688000000">1.688</td>
+              <td class="duration" data-value="1688000000">1.688</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.UpcomingConcertFeature.user_click_on_the_upcoming_events()</td>
+              <td>1</td>
+              <td class="duration" data-value="3017000000">3.017</td>
+              <td class="duration" data-value="3017000000">3.017</td>
+              <td class="duration" data-value="3017000000">3.017</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.UpcomingConcertFeature.user_search_for_in_find_concert_box(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2702000000">2.702</td>
+              <td class="duration" data-value="2702000000">2.702</td>
+              <td class="duration" data-value="2702000000">2.702</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.UpcomingConcertFeature.user_should_be_able_to_write_detail_of_the_concert_in_exel_sheet()</td>
+              <td>1</td>
+              <td class="duration" data-value="4994000000">4.994</td>
+              <td class="duration" data-value="4994000000">4.994</td>
+              <td class="duration" data-value="4994000000">4.994</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.songkick.step_definitions.UpcomingConcertFeature.user_should_see_all_the_related_result()</td>
+              <td>1</td>
+              <td class="duration" data-value="2021000000">2.021</td>
+              <td class="duration" data-value="2021000000">2.021</td>
+              <td class="duration" data-value="2021000000">2.021</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>26</td>
+            <td>71</td>
+            <td class="duration">5.278</td>
+            <td class="duration">2:29.282</td>
+            <td class="duration">6:14.796</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
